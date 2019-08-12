@@ -73,8 +73,19 @@ def sent_email(to):
     server.quit()
 
 
+def test(to):
+    """
+    设置你自己的邮箱
+    :param to:
+    :return:
+    """
+    sent_email(to)
+
+
 if __name__ == '__main__':
-    findDiscuss()
-    # sent_email("2039176261@qq.com")
+    test("your_email@xxx.com")
+    # findDiscuss()
+
+
 
 
